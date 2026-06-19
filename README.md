@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,50:818cf8,100:06b6d4&height=140&section=header&animation=twinkling" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=800&size=40&pause=2000&color=FFFFFF&center=true&vCenter=true&width=700&lines=Zaheer+Ahmed+Khan" alt="Name" />
+<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=800&size=42&pause=3000&color=F97316&center=true&vCenter=true&width=700&lines=Zaheer+Ahmed+Khan" alt="Name" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=2000&color=00C8FF&center=true&vCenter=true&width=620&lines=DevOps+Engineer" alt="Title" />
 
