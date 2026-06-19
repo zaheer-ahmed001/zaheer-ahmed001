@@ -2,69 +2,55 @@
 
 <svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
 
-  <defs>
-    <!-- Gradient Animation -->
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00c8ff">
-        <animate attributeName="stop-color"
-          values="#00c8ff;#0052ff;#00ffcc;#00c8ff"
-          dur="6s" repeatCount="indefinite" />
-      </stop>
+<style>
+@keyframes glowShift {
+  0% { fill: #00c8ff; }
+  50% { fill: #00ffcc; }
+  100% { fill: #0052ff; }
+}
 
-      <stop offset="100%" stop-color="#0052ff">
-        <animate attributeName="stop-color"
-          values="#0052ff;#00ffcc;#00c8ff;#0052ff"
-          dur="6s" repeatCount="indefinite" />
-      </stop>
-    </linearGradient>
+@keyframes moveLine {
+  0% { x: 250; }
+  50% { x: 300; }
+  100% { x: 250; }
+}
 
-    <!-- Glow -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+.glowText {
+  animation: glowShift 4s infinite;
+  font-family: monospace;
+}
+</style>
 
-  <!-- Background -->
-  <rect width="900" height="260" fill="#0d1117"/>
+<!-- Background -->
+<rect width="900" height="260" fill="#0d1117"/>
 
-  <!-- Floating dots -->
-  <circle cx="120" cy="60" r="3" fill="#00c8ff">
-    <animate attributeName="cy" values="60;90;60" dur="4s" repeatCount="indefinite"/>
-  </circle>
+<!-- Name -->
+<text x="50%" y="110" text-anchor="middle"
+      font-size="44" class="glowText">
+  Zaheer Ahmed Khan
+</text>
 
-  <circle cx="780" cy="120" r="4" fill="#00ffcc">
-    <animate attributeName="cy" values="120;150;120" dur="5s" repeatCount="indefinite"/>
-  </circle>
+<!-- Role -->
+<text x="50%" y="160" text-anchor="middle"
+      font-size="22" fill="#c9d1d9"
+      font-family="monospace">
+  DevOps Engineer • Linux • Git • Docker • Jenkins • AWS
+</text>
 
-  <!-- Name -->
-  <text x="50%" y="110" text-anchor="middle"
-        font-size="44" font-family="Fira Code, monospace"
-        fill="url(#grad)" filter="url(#glow)">
-    Zaheer Ahmed Khan
-  </text>
+<!-- Animated underline (safe method) -->
+<rect x="250" y="180" width="400" height="3" fill="#00c8ff">
+  <animate attributeName="x"
+           values="250;300;250"
+           dur="3s"
+           repeatCount="indefinite"/>
+</rect>
 
-  <!-- Role -->
-  <text x="50%" y="160" text-anchor="middle"
-        font-size="22" font-family="Fira Code, monospace"
-        fill="#c9d1d9">
-    DevOps Engineer • Linux • Git • Docker • Jenkins • AWS
-  </text>
-
-  <!-- Moving underline -->
-  <rect x="250" y="180" width="400" height="3" fill="url(#grad)">
-    <animate attributeName="x" values="250;300;250" dur="3s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Tagline -->
-  <text x="50%" y="220" text-anchor="middle"
-        font-size="18" font-family="Fira Code, monospace"
-        fill="#8b949e">
-    Automate Everything • Deploy Anywhere
-  </text>
+<!-- Tagline -->
+<text x="50%" y="220" text-anchor="middle"
+      font-size="18" fill="#8b949e"
+      font-family="monospace">
+  Automate Everything • Deploy Anywhere
+</text>
 
 </svg>
 
