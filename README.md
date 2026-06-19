@@ -1,5 +1,9 @@
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=35&pause=1000&color=00C8FF&center=true&vCenter=true&width=700&lines=Hey%2C+I%27m+Zaheer+Ahmed+Khan+%F0%9F%91%8B;Aspiring+DevOps+Engineer+%F0%9F%9A%80;Build+Automate+Deploy+Repeat" alt="Typing SVG" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C8FF,100:0052FF&height=200&section=header&text=Zaheer%20Ahmed%20Khan&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Aspiring%20DevOps%20Engineer&descAlignY=58&descSize=20" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00C8FF&center=true&vCenter=true&width=600&lines=Build+%F0%9F%94%A7+%7C+Automate+%E2%9A%A1+%7C+Deploy+%F0%9F%9A%80+%7C+Repeat+%F0%9F%94%84" alt="Typing SVG" />
+
 </div>
 
 ---
