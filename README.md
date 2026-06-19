@@ -2,32 +2,20 @@
 
 <svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
 
-<style>
-@keyframes glowShift {
-  0% { fill: #00c8ff; }
-  50% { fill: #00ffcc; }
-  100% { fill: #0052ff; }
-}
-
-@keyframes moveLine {
-  0% { x: 250; }
-  50% { x: 300; }
-  100% { x: 250; }
-}
-
-.glowText {
-  animation: glowShift 4s infinite;
-  font-family: monospace;
-}
-</style>
-
 <!-- Background -->
 <rect width="900" height="260" fill="#0d1117"/>
 
 <!-- Name -->
 <text x="50%" y="110" text-anchor="middle"
-      font-size="44" class="glowText">
+      font-size="44" font-family="monospace">
+  
   Zaheer Ahmed Khan
+
+  <!-- Animated fill -->
+  <animate attributeName="fill"
+           values="#00c8ff;#00ffcc;#0052ff;#00c8ff"
+           dur="4s"
+           repeatCount="indefinite"/>
 </text>
 
 <!-- Role -->
@@ -37,11 +25,15 @@
   DevOps Engineer • Linux • Git • Docker • Jenkins • AWS
 </text>
 
-<!-- Animated underline (safe method) -->
+<!-- Animated underline -->
 <rect x="250" y="180" width="400" height="3" fill="#00c8ff">
   <animate attributeName="x"
            values="250;300;250"
            dur="3s"
+           repeatCount="indefinite"/>
+  <animate attributeName="fill"
+           values="#00c8ff;#00ffcc;#0052ff;#00c8ff"
+           dur="4s"
            repeatCount="indefinite"/>
 </rect>
 
@@ -53,7 +45,6 @@
 </text>
 
 </svg>
-
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00C8FF&center=true&vCenter=true&width=620&lines=Build+%F0%9F%94%A7+%7C+Automate+%E2%9A%A1+%7C+Deploy+%F0%9F%9A%80+%7C+Repeat+%F0%9F%94%84" alt="Typing SVG" />
 
 </div>
