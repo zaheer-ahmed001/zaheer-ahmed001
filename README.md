@@ -1,13 +1,12 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=800&size=42&pause=3000&color=F97316&center=true&vCenter=true&width=700&lines=Zaheer+Ahmed+Khan" alt="Name" />
+<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=800&size=42&pause=800&color=6366F1&center=true&vCenter=true&width=700&lines=Zaheer+Ahmed+Khan" alt="Name" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=2000&color=00C8FF&center=true&vCenter=true&width=620&lines=DevOps+Engineer" alt="Title" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=800&color=00C8FF&center=true&vCenter=true&width=620&lines=DevOps+Engineer" alt="Title" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00C8FF&center=true&vCenter=true&width=620&lines=Build+%F0%9F%94%A7+%7C+Automate+%E2%9A%A1+%7C+Deploy+%F0%9F%9A%80+%7C+Repeat+%F0%9F%94%84" alt="Typing SVG" />
 
 </div>
-
 
 ### 🛠️ Tools & Technologies
 
