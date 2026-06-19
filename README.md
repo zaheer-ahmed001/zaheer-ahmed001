@@ -1,113 +1,70 @@
 <div align="center">
 
-<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-    <!-- Background gradient -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0a0a"/>
-      <stop offset="50%" stop-color="#0d1b2a"/>
-      <stop offset="100%" stop-color="#0a0a0a"/>
+    <!-- Gradient Animation -->
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c8ff">
+        <animate attributeName="stop-color"
+          values="#00c8ff;#0052ff;#00ffcc;#00c8ff"
+          dur="6s" repeatCount="indefinite" />
+      </stop>
+
+      <stop offset="100%" stop-color="#0052ff">
+        <animate attributeName="stop-color"
+          values="#0052ff;#00ffcc;#00c8ff;#0052ff"
+          dur="6s" repeatCount="indefinite" />
+      </stop>
     </linearGradient>
 
-    <!-- Animated gradient (FIXED approach) -->
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00C8FF"/>
-      <stop offset="100%" stop-color="#0052FF"/>
-
-      <!-- smoother compatible animation -->
-      <animate attributeName="x1" values="0%;100%;0%" dur="4s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="100%;0%;100%" dur="4s" repeatCount="indefinite"/>
-    </linearGradient>
-
-    <!-- Glow effect -->
+    <!-- Glow -->
     <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
       <feMerge>
-        <feMergeNode in="blur"/>
+        <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="800" height="200" fill="url(#bg)" rx="12"/>
+  <rect width="900" height="260" fill="#0d1117"/>
 
-  <!-- Floating particles -->
-  <circle cx="50" cy="50" r="2" fill="#00C8FF" opacity="0.5">
-    <animate attributeName="cy" values="50;150;50" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0;0.5" dur="4s" repeatCount="indefinite"/>
+  <!-- Floating dots -->
+  <circle cx="120" cy="60" r="3" fill="#00c8ff">
+    <animate attributeName="cy" values="60;90;60" dur="4s" repeatCount="indefinite"/>
   </circle>
 
-  <circle cx="150" cy="120" r="1.5" fill="#0052FF" opacity="0.4">
-    <animate attributeName="cy" values="120;30;120" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.4;0;0.4" dur="5s" repeatCount="indefinite"/>
+  <circle cx="780" cy="120" r="4" fill="#00ffcc">
+    <animate attributeName="cy" values="120;150;120" dur="5s" repeatCount="indefinite"/>
   </circle>
 
-  <circle cx="700" cy="80" r="2" fill="#00C8FF" opacity="0.5">
-    <animate attributeName="cy" values="80;160;80" dur="3.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0;0.5" dur="3.5s" repeatCount="indefinite"/>
-  </circle>
-
-  <circle cx="600" cy="30" r="1.5" fill="#0052FF" opacity="0.3">
-    <animate attributeName="cy" values="30;130;30" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.3;0;0.3" dur="6s" repeatCount="indefinite"/>
-  </circle>
-
-  <circle cx="350" cy="170" r="2" fill="#00C8FF" opacity="0.4">
-    <animate attributeName="cy" values="170;40;170" dur="4.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.4;0;0.4" dur="4.5s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Main text -->
-  <text x="400" y="100"
-        font-family="Fira Code, monospace"
-        font-size="42"
-        font-weight="700"
-        fill="url(#textGrad)"
-        text-anchor="middle"
-        filter="url(#glow)">
-
+  <!-- Name -->
+  <text x="50%" y="110" text-anchor="middle"
+        font-size="44" font-family="Fira Code, monospace"
+        fill="url(#grad)" filter="url(#glow)">
     Zaheer Ahmed Khan
-
-    <animate attributeName="opacity"
-             values="0;1"
-             dur="1s"
-             fill="freeze"/>
   </text>
 
-  <!-- Subtitle -->
-  <text x="400" y="145"
-        font-family="Fira Code, monospace"
-        font-size="18"
-        fill="#ffffff"
-        text-anchor="middle"
-        opacity="0.85">
-
-    Aspiring DevOps Engineer 🚀
-
-    <animate attributeName="opacity"
-             values="0;0.85"
-             dur="1.5s"
-             fill="freeze"/>
+  <!-- Role -->
+  <text x="50%" y="160" text-anchor="middle"
+        font-size="22" font-family="Fira Code, monospace"
+        fill="#c9d1d9">
+    DevOps Engineer • Linux • Git • Docker • Jenkins • AWS
   </text>
 
-  <!-- Animated line -->
-  <line x1="200" y1="165" x2="600" y2="165"
-        stroke="url(#textGrad)"
-        stroke-width="1.5"
-        opacity="0.6">
+  <!-- Moving underline -->
+  <rect x="250" y="180" width="400" height="3" fill="url(#grad)">
+    <animate attributeName="x" values="250;300;250" dur="3s" repeatCount="indefinite"/>
+  </rect>
 
-    <animate attributeName="x1"
-             values="400;200;400"
-             dur="3s"
-             repeatCount="indefinite"/>
-
-    <animate attributeName="x2"
-             values="400;600;400"
-             dur="3s"
-             repeatCount="indefinite"/>
-  </line>
+  <!-- Tagline -->
+  <text x="50%" y="220" text-anchor="middle"
+        font-size="18" font-family="Fira Code, monospace"
+        fill="#8b949e">
+    Automate Everything • Deploy Anywhere
+  </text>
 
 </svg>
 
