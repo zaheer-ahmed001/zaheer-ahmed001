@@ -1,51 +1,6 @@
 <div align="center">
 
-<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
 
-<defs>
-  <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#00c8ff"/>
-    <stop offset="50%" stop-color="#00ffcc"/>
-    <stop offset="100%" stop-color="#0052ff"/>
-  </linearGradient>
-</defs>
-
-<!-- Background -->
-<rect width="900" height="260" fill="#0d1117"/>
-
-<!-- Name -->
-<text x="50%" y="110" text-anchor="middle"
-      font-size="44"
-      font-family="monospace"
-      fill="url(#textGrad)">
-  Zaheer Ahmed Khan
-</text>
-
-<!-- Role -->
-<text x="50%" y="160" text-anchor="middle"
-      font-size="22"
-      fill="#c9d1d9"
-      font-family="monospace">
-  DevOps Engineer • Linux • Git • Docker • Jenkins • AWS
-</text>
-
-<!-- Moving underline (THIS still works) -->
-<rect x="250" y="180" width="400" height="3" fill="#00c8ff">
-  <animate attributeName="x"
-           values="250;300;250"
-           dur="3s"
-           repeatCount="indefinite"/>
-</rect>
-
-<!-- Tagline -->
-<text x="50%" y="220" text-anchor="middle"
-      font-size="18"
-      fill="#8b949e"
-      font-family="monospace">
-  Automate Everything • Deploy Anywhere
-</text>
-
-</svg>
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00C8FF&center=true&vCenter=true&width=620&lines=Build+%F0%9F%94%A7+%7C+Automate+%E2%9A%A1+%7C+Deploy+%F0%9F%9A%80+%7C+Repeat+%F0%9F%94%84" alt="Typing SVG" />
 
 </div>
