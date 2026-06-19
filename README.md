@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,50:818cf8,100:06b6d4&height=180&section=header&text=Zaheer%20Ahmed%20Khan&fontSize=45&fontColor=ffffff&fontAlignY=38&fontWeight=800&desc=DevOps%20Engineer%20%7C%20AWS%20%7C%20CI%2FCD%20%7C%20IaC&descAlignY=60&descSize=18&descColor=e2e8f0&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,50:818cf8,100:06b6d4&height=180&section=header&text=Zaheer%20Ahmed%20Khan&fontSize=45&fontColor=ffffff&fontAlignY=38&fontWeight=800&desc=DevOps%20Engineer&descAlignY=60&descSize=18&descColor=e2e8f0&animation=fadeIn" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00C8FF&center=true&vCenter=true&width=620&lines=Build+%F0%9F%94%A7+%7C+Automate+%E2%9A%A1+%7C+Deploy+%F0%9F%9A%80+%7C+Repeat+%F0%9F%94%84" alt="Typing SVG" />
 
 </div>
----
+
 
 ### 🛠️ Tools & Technologies
 
