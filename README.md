@@ -2,12 +2,6 @@
 
 <img src="./name-glitch.svg" width="800" alt="Zaheer Ahmed Khan"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00C8FF&center=true&vCenter=true&width=620&lines=Build+%F0%9F%94%A7+%7C+Automate+%E2%9A%A1+%7C+Deploy+%F0%9F%9A%80+%7C+Repeat+%F0%9F%94%84" alt="Typing SVG" />
-
-</div>
-
-<div align="center">
-
 
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00C8FF&center=true&vCenter=true&width=620&lines=Build+%F0%9F%94%A7+%7C+Automate+%E2%9A%A1+%7C+Deploy+%F0%9F%9A%80+%7C+Repeat+%F0%9F%94%84" alt="Typing SVG" />
