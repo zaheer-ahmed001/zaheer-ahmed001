@@ -2,44 +2,45 @@
 
 <svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
 
+<defs>
+  <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00c8ff"/>
+    <stop offset="50%" stop-color="#00ffcc"/>
+    <stop offset="100%" stop-color="#0052ff"/>
+  </linearGradient>
+</defs>
+
 <!-- Background -->
 <rect width="900" height="260" fill="#0d1117"/>
 
 <!-- Name -->
 <text x="50%" y="110" text-anchor="middle"
-      font-size="44" font-family="monospace">
-  
+      font-size="44"
+      font-family="monospace"
+      fill="url(#textGrad)">
   Zaheer Ahmed Khan
-
-  <!-- Animated fill -->
-  <animate attributeName="fill"
-           values="#00c8ff;#00ffcc;#0052ff;#00c8ff"
-           dur="4s"
-           repeatCount="indefinite"/>
 </text>
 
 <!-- Role -->
 <text x="50%" y="160" text-anchor="middle"
-      font-size="22" fill="#c9d1d9"
+      font-size="22"
+      fill="#c9d1d9"
       font-family="monospace">
   DevOps Engineer • Linux • Git • Docker • Jenkins • AWS
 </text>
 
-<!-- Animated underline -->
+<!-- Moving underline (THIS still works) -->
 <rect x="250" y="180" width="400" height="3" fill="#00c8ff">
   <animate attributeName="x"
            values="250;300;250"
            dur="3s"
            repeatCount="indefinite"/>
-  <animate attributeName="fill"
-           values="#00c8ff;#00ffcc;#0052ff;#00c8ff"
-           dur="4s"
-           repeatCount="indefinite"/>
 </rect>
 
 <!-- Tagline -->
 <text x="50%" y="220" text-anchor="middle"
-      font-size="18" fill="#8b949e"
+      font-size="18"
+      fill="#8b949e"
       font-family="monospace">
   Automate Everything • Deploy Anywhere
 </text>
