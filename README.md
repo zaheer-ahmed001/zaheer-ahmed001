@@ -49,7 +49,7 @@
 
 ### 📊 GitHub Stats
 
-![Zaheer's GitHub Stats](https://github-readme-stats.vercel.app/api?username=zaheer-ahmed001&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zaheer-ahmed001&layout=compact&theme=tokyonight)
+![Zaheer's GitHub Stats](https://github-readme-stats-sandy-pi-47.vercel.app/api?username=zaheer-ahmed001&show_icons=true&theme=tokyonight)
+![Top Languages](https://github-readme-stats-sandy-pi-47.vercel.app/api/top-langs/?username=zaheer-ahmed001&layout=compact&theme=tokyonight)
 
 > *"Automate everything. Deploy anywhere."*
