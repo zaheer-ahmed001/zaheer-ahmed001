@@ -4,8 +4,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=00C8FF&center=true&vCenter=true&width=700&lines=DevOps+Engineer;CI%2FCD+%7C+Containers+%7C+Web+Servers;Build+%7C+Automate+%7C+Deploy+%7C+Repeat" alt="Typing SVG" />
 
-![Profile Views](https://komarev.com/ghpvc/?username=zaheer-ahmed001&style=for-the-badge&color=6366F1)
-![Followers](https://img.shields.io/github/followers/zaheer-ahmed001?style=for-the-badge&logo=github&color=181717)
 
 </div>
 
