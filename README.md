@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=700&lines=Zaheer+Ahmed" alt="Name" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=700&lines=Zaheer+Ahmed+Khan" alt="Name" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=00C8FF&center=true&vCenter=true&width=700&lines=DevOps+Engineer;CI%2FCD+%7C+Containers+%7C+Web+Servers;Build+%7C+Automate+%7C+Deploy+%7C+Repeat" alt="Typing SVG" />
 
